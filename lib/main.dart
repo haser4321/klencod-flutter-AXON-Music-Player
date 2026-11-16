@@ -181,8 +181,8 @@ class AxonAudioHandler extends BaseAudioHandler
         MediaControl.play,
       MediaControl.skipToNext,
       MediaControl.custom(
-        action: 'axon_repeat',
-        name: repeatMode == AudioServiceRepeatMode.one
+        name: 'axon_repeat',
+        label: repeatMode == AudioServiceRepeatMode.one
             ? 'Repeat One'
             : 'Repeat Off',
         androidIcon: 'drawable/ic_repeat',
